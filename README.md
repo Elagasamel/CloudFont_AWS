@@ -15,6 +15,17 @@ Lorsque vous créez une distribution, vous devez spécifier le nom de domaine DN
 
 une fois demandés et servis à partir d'un emplacement périphérique, les objets restent dans le cache jusqu'à leur expiration ou sont expulsés pour faire de la place pour du contenu plus fréquemment demandé.
 
+# Avantages d'AWS CloudFront :
+
+Rentable
+Un gain de temps
+Confidentialité du contenu
+Hautement programmable
+Géo-ciblage
+Accélère la livraison de contenu de site Web statique.
+Diffusez à la demande des vidéos diffusées en direct.
+
+
 
 ## conclusion 
 AWS CloudFront est un réseau distribué à l'échelle mondiale proposé par AWS qui fournit en toute sécurité du contenu aux utilisateurs finaux avec une vitesse de transfert élevée et une faible latence. Nous avons vu comment AWS CloudFront fournit le contenu. Il présente divers avantages et utilisations, tels que la diffusion de vidéos en direct à la demande, le cryptage de champs spécifiques tout au long du traitement du système et l'accélération de la diffusion de contenu de site Web statique. De nombreuses plateformes multimédias et de streaming populaires utilisent AWS CloudFront.
