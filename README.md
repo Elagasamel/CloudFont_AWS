@@ -25,6 +25,10 @@ Géo-ciblage
 Accélère la livraison de contenu de site Web statique.
 Diffusez à la demande des vidéos diffusées en direct.
 
+Lorsqu'un utilisateur demande du contenu que vous diffusez avec CloudFront, sa demande est acheminée vers un emplacement périphérique à proximité. Si CloudFront dispose d'une copie en cache du fichier demandé, CloudFront la remet à l'utilisateur, fournissant une réponse rapide (faible latence). Si le fichier qu'ils ont demandé n'est pas encore mis en cache, CloudFront le récupère à partir de votre origine, par exemple, le compartiment S3 où vous avez stocké votre contenu. Ensuite, pour la prochaine requête locale pour le même contenu, il est déjà mis en cache à proximité et peut être servi immédiatement.
+
+En mettant en cache votre contenu dans les emplacements périphériques, CloudFront réduit la charge sur votre compartiment S3 et permet d'assurer une réponse plus rapide pour vos utilisateurs lorsqu'ils demandent du contenu. De plus, le transfert de données vers le contenu à l'aide de CloudFront est souvent plus rentable que de servir des fichiers directement à partir de S3, et il n'y a pas de frais de transfert de données de S3 vers CloudFront.
+
 
 
 ## conclusion 
